@@ -1,0 +1,8 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "wildgrowth:block/pitcher_crop_top"
+	}
+}

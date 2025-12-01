@@ -1,0 +1,9 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "wildgrowth:block/flowerbed_3",
+	"textures": {
+		"flowerbed": "wildgrowth:block/wildflowers",
+		"stem": "wildgrowth:block/wildflowers_stem"
+	}
+}
