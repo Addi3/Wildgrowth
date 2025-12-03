@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wildgrowth:is_dry",
+  "features": [
+    "wildgrowth:patch_short_dry_grass",
+    "wildgrowth:patch_tall_dry_grass"
+  ],
+  "step": "vegetal_decoration"
+}

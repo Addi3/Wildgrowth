@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wildgrowth:is_forest",
+  "features": "wildgrowth:patch_leaf_litter",
+  "step": "vegetal_decoration"
+}

@@ -1,8 +1,8 @@
 {
-	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
-	"parent": "wildgrowth:block/template_leaf_litter_1",
-	"textures": {
-		"texture": "wildgrowth:block/leaf_litter"
-	}
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "parent": "wildgrowth:block/template_leaf_litter_1",
+  "textures": {
+    "texture": "wildgrowth:block/leaf_litter"
+  }
 }

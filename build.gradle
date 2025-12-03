@@ -25,6 +25,9 @@ repositories {
             includeGroup "dev.drtheo"
         }
     }
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
 }
 
 loom {
@@ -50,6 +53,7 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "maven.modrinth:lithostitched:1.4.11-fabric-1.20"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
