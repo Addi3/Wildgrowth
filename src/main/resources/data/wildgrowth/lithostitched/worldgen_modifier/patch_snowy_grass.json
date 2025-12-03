@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wildgrowth:is_cold",
+  "features": [
+    "wildgrowth:patch_snowy_grass"
+  ],
+  "step": "vegetal_decoration"
+}

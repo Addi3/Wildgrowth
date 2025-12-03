@@ -1,6 +1,6 @@
 package com.addie.util;
 
-import com.addie.core.WildGrowthBlocks;
+import com.addie.core.WildgrowthBlocks;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -23,9 +23,23 @@ public class ClientColors {
                         return DARK_BROWN;
                     }
                 },
-                WildGrowthBlocks.LEAF_LITTER
+                WildgrowthBlocks.LEAF_LITTER
         );
     }
+
+    public static void registerSnowyGrassColor() {
+        ColorProviderRegistry.BLOCK.register(
+                (state, worldView, pos, tintIndex) -> {
+                    if (worldView != null && pos != null) {
+                        return BiomeColors.getGrassColor(worldView, pos);
+                    } else {
+                        return 0x91BD59; // fallback grass color
+                    }
+                },
+                WildgrowthBlocks.SNOWY_GRASS
+        );
+    }
+
 
 
     private static int blendColors(int color1, int color2, float factor) {

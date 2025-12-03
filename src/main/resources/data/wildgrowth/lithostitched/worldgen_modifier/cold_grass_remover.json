@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:remove_features",
+  "biomes": "#wildgrowth:is_cold",
+  "features": [
+    "minecraft:patch_taiga_grass",
+    "minecraft:disk_grass"
+  ],
+  "step": "vegetal_decoration"
+}
