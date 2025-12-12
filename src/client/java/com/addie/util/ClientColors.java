@@ -36,7 +36,10 @@ public class ClientColors {
                         return 0x91BD59; // fallback grass color
                     }
                 },
-                WildgrowthBlocks.SNOWY_GRASS
+                WildgrowthBlocks.SNOWY_GRASS,
+                WildgrowthBlocks.BUSH,
+                WildgrowthBlocks.SNOWY_BUSH,
+                WildgrowthBlocks.SNOWY_SHORT_GRASS
         );
     }
 

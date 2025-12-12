@@ -1,0 +1,7 @@
+{
+  "parent": "wildgrowth:block/tinted_overlay_cross",
+  "textures": {
+    "cross": "wildgrowth:block/bush",
+    "overlay": "wildgrowth:block/snowy_bush_overlay"
+  }
+}

@@ -1,13 +1,13 @@
 package com.addie;
 
-import com.addie.core.WildgrowthParticles;
+import com.addie.particles.CustomSnowflakeParticle;
 import com.addie.util.ClientColors;
 import com.addie.core.WildgrowthBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
-import net.minecraft.client.particle.SnowflakeParticle;
 import net.minecraft.client.render.RenderLayer;
+import static com.addie.Wildgrowth.SNOWFLAKE;
 
 public class WildgrowthClient implements ClientModInitializer {
 
@@ -16,7 +16,7 @@ public class WildgrowthClient implements ClientModInitializer {
         BlockRenderLayerMapRegister();
         ClientColors.registerLeafLitterColor();
         ClientColors.registerSnowyGrassColor();
-
+        registerParticlesClient();
     }
 
     public static void BlockRenderLayerMapRegister() {
@@ -25,20 +25,14 @@ public class WildgrowthClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.LEAF_LITTER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.SNOWY_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.SNOWFLAKES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.BUSH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.SNOWY_BUSH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.SNOWY_SHORT_GRASS, RenderLayer.getCutout());
     }
 
-    public void registerParticles() {
-        ParticleFactoryRegistry.getInstance().register(
-                WildgrowthParticles.SNOWFLAKE_SMALL,
-                SnowflakeParticle.Factory::new
-        );
-        ParticleFactoryRegistry.getInstance().register(
-                WildgrowthParticles.SNOWFLAKE_MEDIUM,
-                SnowflakeParticle.Factory::new
-        );
-        ParticleFactoryRegistry.getInstance().register(
-                WildgrowthParticles.SNOWFLAKE_LARGE,
-                SnowflakeParticle.Factory::new
-        );
+
+    public void registerParticlesClient() {
+        ParticleFactoryRegistry.getInstance().register(SNOWFLAKE, CustomSnowflakeParticle.Factory::new);
     }
+
 }

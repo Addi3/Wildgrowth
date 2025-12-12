@@ -1,0 +1,20 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "wildgrowth:block/snowflakes",
+		"snow_flakes": "wildgrowth:block/snowflakes"
+	},
+	"elements": [
+		{
+			"from": [-0.02, -0.02, 15.98],
+			"to": [16.02, 16.02, 16.02],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 32]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#snow_flakes"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#snow_flakes"}
+			}
+		}
+	]
+}

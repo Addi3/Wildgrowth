@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wildgrowth:is_moderate",
+  "features": [
+    "wildgrowth:patch_bush"
+  ],
+  "step": "vegetal_decoration"
+}

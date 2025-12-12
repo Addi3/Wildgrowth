@@ -16,7 +16,6 @@ public class DryGrassBlock extends PlantBlock implements Fertilizable {
     protected static final float field_31261 = 6.0F;
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0F, 0.0F, 2.0F, 14.0F, 13.0F, 14.0F);
 
-    // 🔹 Tag for valid ground blocks
     public static final TagKey<Block> CAN_GROW_ON = TagKey.of(
             RegistryKeys.BLOCK,
             new Identifier("wildgrowth", "dry_grass_placeable")

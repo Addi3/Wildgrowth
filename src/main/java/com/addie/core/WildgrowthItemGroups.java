@@ -5,9 +5,9 @@ import dev.amble.lib.container.impl.ItemGroupContainer;
 import dev.amble.lib.itemgroup.AItemGroup;
 import net.minecraft.item.ItemStack;
 
-public class WildGrowthItemGroups implements ItemGroupContainer {
+public class WildgrowthItemGroups implements ItemGroupContainer {
 
     public static final AItemGroup MAIN = AItemGroup.builder(Wildgrowth.id("item_group"))
-            .icon(() -> new ItemStack(WildGrowthBlocks.SHORT_DRY_GRASS.asItem()))
+            .icon(() -> new ItemStack(WildgrowthBlocks.SHORT_DRY_GRASS.asItem()))
             .build();
 }

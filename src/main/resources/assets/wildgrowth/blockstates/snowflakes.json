@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up":    { "model": "wildgrowth:block/snowflakes/snowflakes_up" },
+    "facing=down":  { "model": "wildgrowth:block/snowflakes/snowflakes_down" },
+    "facing=north": { "model": "wildgrowth:block/snowflakes/snowflakes_north" },
+    "facing=south": { "model": "wildgrowth:block/snowflakes/snowflakes_south" },
+    "facing=west":  { "model": "wildgrowth:block/snowflakes/snowflakes_west" },
+    "facing=east":  { "model": "wildgrowth:block/snowflakes/snowflakes_east" }
+  }
+}

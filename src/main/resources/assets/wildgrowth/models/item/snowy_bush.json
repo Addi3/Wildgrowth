@@ -1,8 +1,8 @@
 {
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/tinted_cross",
+	"parent": "minecraft:item/generated",
 	"textures": {
-		"cross": "wildgrowth:block/bush"
+		"layer0": "wildgrowth:item/snowy_bush"
 	}
 }
