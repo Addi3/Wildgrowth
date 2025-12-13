@@ -1,14 +1,12 @@
 package com.addie.core;
 
-import com.addie.core.Blocks.DryGrassBlock;
-import com.addie.core.Blocks.FireflyBushBlock;
-import com.addie.core.Blocks.LeafLitterBlock;
-import com.addie.core.Blocks.SnowFlakesBlock;
+import com.addie.core.Blocks.*;
 import dev.amble.lib.block.ABlockSettings;
 import dev.amble.lib.container.impl.BlockContainer;
 import dev.amble.lib.datagen.util.NoBlockDrop;
 import dev.amble.lib.datagen.util.NoEnglish;
 import dev.amble.lib.item.AItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.sound.BlockSoundGroup;
@@ -85,9 +83,26 @@ public class WildgrowthBlocks extends BlockContainer {
             .noCollision()
             .breakInstantly()
             .sounds(BlockSoundGroup.GRASS)
-            .offset(AbstractBlock.OffsetType.XZ)
             .pistonBehavior(PistonBehavior.DESTROY)
             .mapColor(MapColor.DARK_GREEN)
+    );
+
+    @NoEnglish
+    @NoBlockDrop
+    public static final Block CACTUS_FLOWER = new CactusFlowerBlock(ABlockSettings.create().itemSettings(new AItemSettings()
+                    .group(WildgrowthItemGroups.MAIN))
+            .replaceable()
+            .noCollision()
+            .breakInstantly()
+            .sounds(BlockSoundGroup.GRASS)
+            .pistonBehavior(PistonBehavior.DESTROY)
+            .mapColor(MapColor.DARK_GREEN)
+    );
+
+
+    public static final Block POTTED_CACTUS_FLOWER = new FlowerPotBlock(CACTUS_FLOWER, FabricBlockSettings
+            .copyOf(Blocks.POTTED_CACTUS)
+            .nonOpaque()
     );
 
 

@@ -47,7 +47,8 @@
   Required Mods!
 </h2>
 
-- Requires AmbleKit (latest 1.20.1 version) -> [Download Here](https://modrinth.com/mod/amblekit/versions)
+- AmbleKit (latest 1.20.1 version) -> [Download Here](https://modrinth.com/mod/amblekit/versions)
+- Lithostitched (latest fabric 1.20.1 version) -> [Download Here](https://modrinth.com/mod/lithostitched/versions?g=1.20.1&l=fabric)
 
 <h2>
   <img src="https://cdn.modrinth.com/data/cached_images/29848556cea889595907388e4cb59a97a4e86aea.png"
@@ -59,6 +60,7 @@
 </h2>
 
 - Continuity (latest fabric 1.20.1 version) -> [Download Here](https://modrinth.com/mod/continuity/versions?g=1.20.1&l=fabric)
+
 
 -------------
 -------------

@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "minecraft:desert",
+  "features": [
+    "wildgrowth:patch_cactus"
+  ],
+  "step": "vegetal_decoration"
+}
