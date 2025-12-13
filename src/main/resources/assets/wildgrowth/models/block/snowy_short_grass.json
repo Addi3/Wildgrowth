@@ -1,7 +1,7 @@
 {
   "parent": "wildgrowth:block/tinted_overlay_cross",
   "textures": {
-    "cross": "wildgrowth:block/snowy_short_grass",
+    "cross": "wildgrowth:block/cold_short_grass",
     "overlay": "wildgrowth:block/snowy_short_grass_overlay"
   }
 }
