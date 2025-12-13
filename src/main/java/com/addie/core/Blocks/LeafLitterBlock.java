@@ -2,6 +2,7 @@ package com.addie.core.Blocks;
 
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.IntProperty;
@@ -26,6 +27,11 @@ public class LeafLitterBlock extends PlantBlock {
                         .with(FACING, Direction.NORTH)
                         .with(LEAF_AMOUNT, 1)
         );
+    }
+
+    @Override
+    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+        return floor.isSolidBlock(world, pos);
     }
 
     @Override

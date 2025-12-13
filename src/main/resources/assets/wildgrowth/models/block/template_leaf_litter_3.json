@@ -19,7 +19,7 @@
 			"to": [8, 0.25, 16],
 			"faces": {
 				"up": {"uv": [0, 0, 8, 16], "texture": "#texture", "tintindex": 0},
-				"down": {"uv": [0, 16, 8, 0], "texture": "#missing", "tintindex": 0}
+				"down": {"uv": [0, 16, 8, 0], "texture": "#texture", "tintindex": 0}
 			}
 		}
 	]
