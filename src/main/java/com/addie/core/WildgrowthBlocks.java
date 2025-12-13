@@ -1,6 +1,7 @@
 package com.addie.core;
 
 import com.addie.core.Blocks.DryGrassBlock;
+import com.addie.core.Blocks.FireflyBushBlock;
 import com.addie.core.Blocks.LeafLitterBlock;
 import com.addie.core.Blocks.SnowFlakesBlock;
 import dev.amble.lib.block.ABlockSettings;
@@ -66,6 +67,19 @@ public class WildgrowthBlocks extends BlockContainer {
     @NoEnglish
     @NoBlockDrop
     public static final Block BUSH = new FernBlock(ABlockSettings.create().itemSettings(new AItemSettings()
+                    .group(WildgrowthItemGroups.MAIN))
+            .replaceable()
+            .noCollision()
+            .breakInstantly()
+            .sounds(BlockSoundGroup.GRASS)
+            .offset(AbstractBlock.OffsetType.XZ)
+            .pistonBehavior(PistonBehavior.DESTROY)
+            .mapColor(MapColor.DARK_GREEN)
+    );
+
+    @NoEnglish
+    @NoBlockDrop
+    public static final Block FIREFLY_BUSH = new FireflyBushBlock(ABlockSettings.create().itemSettings(new AItemSettings()
                     .group(WildgrowthItemGroups.MAIN))
             .replaceable()
             .noCollision()

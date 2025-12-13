@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wildgrowth:is_firefly_appropriate",
+  "features": [
+    "wildgrowth:patch_firefly_bush"
+  ],
+  "step": "vegetal_decoration"
+}

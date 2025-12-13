@@ -31,10 +31,12 @@ public class Wildgrowth implements ModInitializer {
 
 
     public static final DefaultParticleType SNOWFLAKE = FabricParticleTypes.simple();
+    public static final DefaultParticleType FIREFLY = FabricParticleTypes.simple();
 
 
     public void registerParticles() {
         Registry.register(Registries.PARTICLE_TYPE, id("snowflake"), SNOWFLAKE);
+        Registry.register(Registries.PARTICLE_TYPE, id("firefly"), FIREFLY);
     }
 
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wildgrowth:firefly_bush",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

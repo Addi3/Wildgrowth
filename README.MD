@@ -1,0 +1,1 @@
+for firefly bush emission install [Continuity: fabric-1.20.1](https://modrinth.com/mod/continuity/versions?g=1.20.1&l=fabric)
