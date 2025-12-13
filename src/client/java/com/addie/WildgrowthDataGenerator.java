@@ -59,6 +59,7 @@ public class WildgrowthDataGenerator implements DataGeneratorEntrypoint {
                 provider.addTranslation(WildgrowthBlocks.BUSH,"Bush");
                 provider.addTranslation(WildgrowthBlocks.SNOWY_BUSH,"Snowy Bush");
                 provider.addTranslation(WildgrowthBlocks.SNOWY_SHORT_GRASS,"Snowy Short Grass");
+                provider.addTranslation(WildgrowthBlocks.WILDFLOWERS,"Wildflowers");
 
                 return provider;
             })));

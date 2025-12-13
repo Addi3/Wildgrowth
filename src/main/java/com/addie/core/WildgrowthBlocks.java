@@ -8,10 +8,7 @@ import dev.amble.lib.container.impl.BlockContainer;
 import dev.amble.lib.datagen.util.NoBlockDrop;
 import dev.amble.lib.datagen.util.NoEnglish;
 import dev.amble.lib.item.AItemSettings;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.FernBlock;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.sound.BlockSoundGroup;
 
@@ -52,6 +49,18 @@ public class WildgrowthBlocks extends BlockContainer {
             .sounds(BlockSoundGroup.GRASS)
             .pistonBehavior(PistonBehavior.DESTROY)
             .mapColor(MapColor.BROWN)
+    );
+
+    @NoEnglish
+    @NoBlockDrop
+    public static final Block WILDFLOWERS = new FlowerbedBlock(ABlockSettings.create().itemSettings(new AItemSettings()
+                    .group(WildgrowthItemGroups.MAIN))
+            .replaceable()
+            .noCollision()
+            .breakInstantly()
+            .sounds(BlockSoundGroup.GRASS)
+            .pistonBehavior(PistonBehavior.DESTROY)
+            .mapColor(MapColor.DARK_GREEN)
     );
 
     @NoEnglish

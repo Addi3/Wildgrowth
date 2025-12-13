@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wildgrowth:is_wildflower_appropriate",
+  "features": "wildgrowth:patch_wildflowers",
+  "step": "vegetal_decoration"
+}

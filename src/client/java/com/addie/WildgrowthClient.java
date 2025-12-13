@@ -28,6 +28,7 @@ public class WildgrowthClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.BUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.SNOWY_BUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.SNOWY_SHORT_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(WildgrowthBlocks.WILDFLOWERS, RenderLayer.getCutout());
     }
 
 

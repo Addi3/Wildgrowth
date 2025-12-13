@@ -39,7 +39,8 @@ public class ClientColors {
                 WildgrowthBlocks.SNOWY_GRASS,
                 WildgrowthBlocks.BUSH,
                 WildgrowthBlocks.SNOWY_BUSH,
-                WildgrowthBlocks.SNOWY_SHORT_GRASS
+                WildgrowthBlocks.SNOWY_SHORT_GRASS,
+                WildgrowthBlocks.WILDFLOWERS
         );
     }
 
