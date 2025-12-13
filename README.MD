@@ -33,7 +33,7 @@
 
 - You can suggest stuff on the github issues page or on the my official [discord server](https://discord.gg/5JDKuzarcS)! I will also answer any questions on either site!
 
-### Want more Q&A? See [HERE](https://addi3.github.io/smored_wiki)
+### Want more Q&A? See [HERE](https://addi3.github.io/wildgrowth_wiki)
 
 -------------
 -------------
